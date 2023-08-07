@@ -1,15 +1,3 @@
-const npm = require('npm');
-function install(dependency){
-npm.install(dependency, (err) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(`Successfully installed ${dependency}`);
-  }
-});
-}
-install("require-folder");
-
 var Kahoot = require-folder("./kahoot.js-latest");
 var colors = require-folder('./colors');    
 const prompt = require-folder('./prompt-sync')();
