@@ -1,6 +1,6 @@
 var Kahoot = require("/kahoot.js-latest");
 var colors = require('/colors');    
-const prompt = require('prompt-sync')();
+const prompt = require('/prompt-sync')();
 const name = prompt('Bot names: ')
 const pin = prompt('Game PIN: ');
 const bots = prompt('Bots: ');
