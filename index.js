@@ -1,7 +1,6 @@
-const requireFolder = require("require-folder")
-var Kahoot = requireFolder("./kahoot.js-latest");
-var colors = requireFolder('./colors');    
-const prompt = requireFolder('./prompt-sync')();
+var Kahoot = require("kahoot.js-latest");
+var colors = require('colors');    
+const prompt = require('prompt-sync')();
 const name = prompt('Bot names: ')
 const pin = prompt('Game PIN: ');
 const bots = prompt('Bots: ');
