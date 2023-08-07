@@ -7,7 +7,7 @@ const bots = prompt('Bots: ');
 
 number = 1
 number2 = 1
-setInterval(kahoot, 0);
+setInterval(kahoot, 850);
 function kahoot() {
 const client = new Kahoot;
 if(number <= parseInt(bots)){
